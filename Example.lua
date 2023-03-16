@@ -1,6 +1,6 @@
-local _, library = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Osmium/main/OsmiumLibrary.lua")))
+local _, library = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/Subject920/XploitHub/blob/main/XPloitHubLibrary.lua")))
 
-local window = library:CreateWindow("Osmium UI Library")
+local window = library:CreateWindow("XPGUI")
 
 local test = window:CreateTab("Main")
 local info = window:CreateTab("Info")
@@ -28,12 +28,8 @@ local batp = test:CreateButton("Button Exemple", function()
     print("c")
 end)
 
-local label = info:CreateLabel("KeyBind :","KeyBind to Close/Open the Gui Is 'Left Alt'")
+local label = info:CreateLabel("KeyBind :","KeyBind to Close/Open the Gui Is 'Left Control'")
 
-local label = cred:CreateLabel("Interface :","Made by Trix#2794")
-local label = cred:CreateLabel("Interface Scripts :","Made by Trix#2794")
-local label = cred:CreateLabel("Scripting :","by Trix#2794 / JulMan#1234")
-local batp = cred:CreateButton("Copy Discord Server Link", function()
-    setclipboard("discord.gg/TT3y4gkJtq")
-end)
-
+local label = cred:CreateLabel("Interface :","Made by Subject_920")
+local label = cred:CreateLabel("Interface Scripts :","Made by Subject_920")
+local label = cred:CreateLabel("Scripting :","by Subject_920")
