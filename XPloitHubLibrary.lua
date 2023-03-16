@@ -11,8 +11,8 @@ Y8,        ,8P   `"Y8ba,   88      88      88  88  88       88  88      88      
   `"Y8888Y"'    `"YbbdP"'  88      88      88  88   `"YbbdP'Y8  88      88      88     88888888888  88  8Y"Ybbd8"'   88          `"8bbdP"Y8  88              Y88'     
                                                                                                                                                              d8'      
                                                                                                                                                             d8'  
-Interface : Trix#2794
-Script : Trix#2794 / Julman#1234
+Interface : Subject_920
+Script : Subject_920 (original, definitely not copied and re-edited)
 
 --]]
 
