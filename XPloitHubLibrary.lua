@@ -823,6 +823,7 @@ local library = (function()
 					BackgroundTransparency = 1,
 					Position = UDim2.new(0, 0, 0, 26),
 					TextXAlignment = Enum.TextXAlignment.Left,
+					TextWrapped = true,
 					Size = UDim2.new(1, 0, 0, 0),
 					TextSize = 12,
 					BackgroundColor3 = Colors.White,
