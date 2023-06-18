@@ -840,7 +840,9 @@ local library = (function()
 				end
 
 				function label:SetDescription(description)
+					local _, count = description:gsub("\n", "")
 					textDescription.Text = " " .. description
+					textDescription.Size = UDim2.new(0, 119, 0, 26 * count)
 
 					textDescription.Visible = #(description or "") > 0
 				end
