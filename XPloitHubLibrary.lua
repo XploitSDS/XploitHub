@@ -59,7 +59,7 @@ local library = (function()
             Stroke = Color3.fromRGB(145, 145, 145),
             Button = Color3.fromRGB(45, 45, 45),
             DarkButton = Color3.fromRGB(40, 40, 40),
-            Top = Color3.fromRGB(200, 100, 0),
+            Top = Color3.fromRGB(26, 26, 26),
             FramesBack = Color3.fromRGB(36, 36, 36),
 			TogBox = Color3.fromRGB(32, 33, 32),
 			DropDownButton = Color3.new(0.235294, 0.235294, 0.235294)
@@ -144,7 +144,7 @@ local library = (function()
             Position = UDim2.new(0.375, 0,0.184, 0),
             BorderColor3 = Colors.Gray.Stroke,
             Size = UDim2.new(0, 612,0, 42),
-            BackgroundColor3 = Color3.fromRGB(20,20,20)
+            BackgroundColor3 = Color3.fromRGB(200,100,0)
         })
 
         Instance.new("UICorner", top)
