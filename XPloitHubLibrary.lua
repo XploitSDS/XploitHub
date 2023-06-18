@@ -840,7 +840,8 @@ local library = (function()
 				end
 
 				function label:SetDescription(description)
-					local _, linecount = description:gsub("\n", "")
+					local desccount = description
+					local _, linecount = string.gsub(desccount, "\n", "")
 					print(linecount)
 					textDescription.Text = " " .. description
 					Position = UDim2.new(0, 0, 0.350000083, 26 * (linecount - 1))
