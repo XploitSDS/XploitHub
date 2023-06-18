@@ -1,18 +1,25 @@
 --[[
 
                                                                                                                                                                       
-  ,ad8888ba,                                   88                                      88           88  88                                                            
- d8"'    `"8b                                  ""                                      88           ""  88                                                            
-d8'        `8b                                                                         88               88                                                            
-88          88  ,adPPYba,  88,dPYba,,adPYba,   88  88       88  88,dPYba,,adPYba,      88           88  88,dPPYba,   8b,dPPYba,  ,adPPYYba,  8b,dPPYba,  8b       d8  
-88          88  I8[    ""  88P'   "88"    "8a  88  88       88  88P'   "88"    "8a     88           88  88P'    "8a  88P'   "Y8  ""     `Y8  88P'   "Y8  `8b     d8'  
-Y8,        ,8P   `"Y8ba,   88      88      88  88  88       88  88      88      88     88           88  88       d8  88          ,adPPPPP88  88           `8b   d8'   
- Y8a.    .a8P   aa    ]8I  88      88      88  88  "8a,   ,a88  88      88      88     88           88  88b,   ,a8"  88          88,    ,88  88            `8b,d8'    
-  `"Y8888Y"'    `"YbbdP"'  88      88      88  88   `"YbbdP'Y8  88      88      88     88888888888  88  8Y"Ybbd8"'   88          `"8bbdP"Y8  88              Y88'     
-                                                                                                                                                             d8'      
-                                                                                                                                                            d8'  
-Interface : Subject_920
-Script : Subject_920 (original, definitely not copied and re-edited)
+      .'.                                                             .''       
+     .cdol:,..                                                   ..,:lodl.      
+     .cxdddddoc;'..                                          .';codddddxl.      
+      ':loddddddddl:;'.                                 ..,:loddddddddlc'       
+         .';clddddddddoc:,..                       ..';coddddddddoc;'..         
+             ..';coddddddddlc;'.               ..,:lddddddddoc;,..              
+                  ..,;codddddddol:,.       .,:codddddddoc:,..                   
+                       ..,:lodddddd:       ;dddddddl:,..                        
+                        ..,codddddd:.      ;dddddddc,..                         
+                   ..';codddddddoc:.       .:codddddddoc;,..                    
+               .';cldddddxdol:,'.             ..,:lodddddddoc;'..               
+          .';:lddddddddlc;'.                       .',:lddddddddlc;'..          
+      .,:lodddddddoc;'..                                .';clddddddddl:;.       
+     .cddddddoc:,..                                         ..,;codddddxl.      
+     .cdol:,..                                                   ..,:codl.      
+      .'.                                                             ...       
+
+Interface : Code_Xploit (original, definitely not copied and re-edited)
+Script : Code_Xploit
 
 --]]
 
@@ -52,7 +59,7 @@ local library = (function()
             Stroke = Color3.fromRGB(145, 145, 145),
             Button = Color3.fromRGB(45, 45, 45),
             DarkButton = Color3.fromRGB(40, 40, 40),
-            Top = Color3.fromRGB(26, 26, 26),
+            Top = Color3.fromRGB(200, 100, 0),
             FramesBack = Color3.fromRGB(36, 36, 36),
 			TogBox = Color3.fromRGB(32, 33, 32),
 			DropDownButton = Color3.new(0.235294, 0.235294, 0.235294)
@@ -821,9 +828,8 @@ local library = (function()
 					AutomaticSize = Enum.AutomaticSize.Y,
 					Font = Font,
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 0, 0, 26),
+					Position = UDim2.new(0, 0, 0, 20),
 					TextXAlignment = Enum.TextXAlignment.Left,
-					TextWrapped = true,
 					Size = UDim2.new(1, 0, 0, 0),
 					TextSize = 12,
 					BackgroundColor3 = Colors.White,
