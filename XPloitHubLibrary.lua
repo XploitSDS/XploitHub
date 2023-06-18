@@ -795,6 +795,7 @@ local library = (function()
 					TextWrapped = true,
 					TextColor3 = Colors.White,
 					Text = "  " .. (title or ""),
+					AutomaticSize = Enum.AutomaticSize.Y,
 					TextYAlignment = Enum.TextYAlignment.Top,
 					Font = Font,
 					Name = "Label",
@@ -817,11 +818,12 @@ local library = (function()
 				local textDescription = CreateInstance("TextLabel", textLabel, {
 					TextColor3 = Colors.White,
 					Text = "   " .. (description or ""),
+					AutomaticSize = Enum.AutomaticSize.Y,
 					Font = Font,
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 0, 0.5, 0),
+					Position = UDim2.new(0, 0, 0, 26),
 					TextXAlignment = Enum.TextXAlignment.Left,
-					Size = UDim2.new(0, 119, 0, 26),
+					Size = UDim2.new(1, 0, 0, 0),
 					TextSize = 12,
 					BackgroundColor3 = Colors.White,
 					Visible = #(description or "") > 0
@@ -840,11 +842,7 @@ local library = (function()
 				end
 
 				function label:SetDescription(description)
-					local desccount = description
-					local _, linecount = string.gsub(desccount, "\n", "")
-					print(linecount)
 					textDescription.Text = " " .. description
-					textLabel.Size = UDim2.new(0, 438, 0, (9 * (linecount + 1) + 26)/2)
 
 					textDescription.Visible = #(description or "") > 0
 				end
