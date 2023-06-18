@@ -844,7 +844,7 @@ local library = (function()
 					local _, linecount = string.gsub(desccount, "\n", "")
 					print(linecount)
 					textDescription.Text = " " .. description
-					textLabel.Size = UDim2.new(0, 119, 0, 26 * (linecount + 1))
+					textLabel.Size = UDim2.new(0, 119, 0, 9 * (linecount + 1) + 26)
 
 					textDescription.Visible = #(description or "") > 0
 				end
