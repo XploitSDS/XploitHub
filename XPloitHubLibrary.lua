@@ -819,7 +819,7 @@ local library = (function()
 					Text = "   " .. (description or ""),
 					Font = Font,
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 0, 0.350000083, 0),
+					Position = UDim2.new(0, 0, 0.5, 0),
 					TextXAlignment = Enum.TextXAlignment.Left,
 					Size = UDim2.new(0, 119, 0, 26),
 					TextSize = 12,
@@ -844,7 +844,7 @@ local library = (function()
 					local _, linecount = string.gsub(desccount, "\n", "")
 					print(linecount)
 					textDescription.Text = " " .. description
-					textLabel.Size = UDim2.new(0, 119, 0, 9 * (linecount + 1) + 26)
+					textLabel.Size = UDim2.new(0, 438, 0, (9 * (linecount + 1) + 26)/2)
 
 					textDescription.Visible = #(description or "") > 0
 				end
