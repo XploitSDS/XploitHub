@@ -1,22 +1,26 @@
 --[[
 
                                                                                                                                                                       
-      .'.                                                             .''       
-     .cdol:,..                                                   ..,:lodl.      
-     .cxdddddoc;'..                                          .';codddddxl.      
-      ':loddddddddl:;'.                                 ..,:loddddddddlc'       
-         .';clddddddddoc:,..                       ..';coddddddddoc;'..         
-             ..';coddddddddlc;'.               ..,:lddddddddoc;,..              
-                  ..,;codddddddol:,.       .,:codddddddoc:,..                   
-                       ..,:lodddddd:       ;dddddddl:,..                        
-                        ..,codddddd:.      ;dddddddc,..                         
-                   ..';codddddddoc:.       .:codddddddoc;,..                    
-               .';cldddddxdol:,'.             ..,:lodddddddoc;'..               
-          .';:lddddddddlc;'.                       .',:lddddddddlc;'..          
-      .,:lodddddddoc;'..                                .';clddddddddl:;.       
-     .cddddddoc:,..                                         ..,;codddddxl.      
-     .cdol:,..                                                   ..,:codl.      
-      .'.                                                             ...       
+                     ..''''''''''''.                            .''''''''''''..                     
+                      .,cllllllllllc,.                        .,cllllllllllc,.                      
+                        .,:llllllllllc;.                   ..;cllllllllll:,.                        
+                          .':lllllllllll:'.              .':lllllllllll:'.                          
+                             .;cllllllllll:,.    .....  .:llllllllllc;.                             
+                               .,cllllllllllc,. .lO0O: .;lllllllllc,.                               
+                                 .,:lllllllllc' 'xKKO, .clllllll:,.                                 
+                                   .':lllllll:. :OKKd. ,llllll:'.                                   
+                                      .;cllll, .oKK0c .;lllc;.                                      
+                                        .:llc' 'xKKk, .cll:.                                        
+                                       .;cll:. :OKKd. ,lllc;.                                       
+                                    ..;cllll, .oK0Oc .;lllllc;'.                                    
+                                  .':llllllc' 'xKkd, .cllllllll:'.                                  
+                                .,cllllllll:. :0Kd;. .cllllllllllc,.                                
+                              .;cllllllllll,  ,ll,.   .,cllllllllllc;.                              
+                           ..;cllllllllll:'.            .':llllllllllc;..                           
+                         .':llllllllllc;'.                .';cllllllllll:'.                         
+                       .,cllllllllllc;.                      .;cllllllllllc,.                       
+                     .'::c:::c::cc:,.                          .,:cccc::ccc::'.                     
+                      ............                                ............      
 
 Interface : Code_Xploit (original, definitely not copied and re-edited)
 Script : Code_Xploit
