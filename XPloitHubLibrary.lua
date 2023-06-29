@@ -29,7 +29,7 @@ Script : Code_Xploit
 
 ---@diagnostic disable: redefined-local, undefined-global, unused-local, param-type-mismatch, redundant-value, lowercase-global, undefined-field
 
-pcall(function()
+--[[pcall(function()
 	local snd = 6026984224
 	local sound = Instance.new("Sound",Workspace)
 	sound.SoundId = "rbxassetid://"..snd
@@ -40,7 +40,7 @@ pcall(function()
 	sound.Ended:Connect(function ()
 		sound:Destroy() 
 	end)
-end)
+end)]]
 
 local library = (function()
     local UserInputService = game:GetService("UserInputService")
