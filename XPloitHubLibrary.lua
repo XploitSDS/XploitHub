@@ -524,10 +524,8 @@ local library = (function()
                     end
 
                     textBoxInstance.FocusLost:Connect(function(enter)
-                        if enter then
-                            callback(textBoxInstance.Text)
-                            shrink()
-                        end
+                        callback(textBoxInstance.Text)
+                        shrink()
                     end)
 
                     textBoxInstance.Focused:Connect(function() grow() end)
