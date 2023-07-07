@@ -803,7 +803,7 @@ local library = (function()
 				local textLabel = CreateInstance("TextLabel", tabContainer, {
 					TextWrapped = true,
 					TextColor3 = Colors.White,
-					Text = "  " .. (title or ""),
+					Text = " \n  " .. (title or ""),
 					AutomaticSize = Enum.AutomaticSize.Y,
 					TextYAlignment = Enum.TextYAlignment.Top,
 					Font = Font,
@@ -811,6 +811,7 @@ local library = (function()
 					TextXAlignment = Enum.TextXAlignment.Left,
 					Size = UDim2.new(0, 438, 0, 35),
 					ZIndex = 0,
+					LineHeight = 0.5,
 					TextSize = 14,
 					BackgroundColor3 = Colors.Gray.DarkButton
 				})
@@ -830,12 +831,14 @@ local library = (function()
 					AutomaticSize = Enum.AutomaticSize.Y,
 					Font = Font,
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 0, 0, 20),
+					Position = UDim2.new(0, 0, 0, 30),
 					TextXAlignment = Enum.TextXAlignment.Left,
 					Size = UDim2.new(1, 0, 0, 0),
+					LineHeight = 2;
+					
 					TextSize = 12,
 					BackgroundColor3 = Colors.White,
-					Visible = #(description or "") > 0
+					Parent = #(description or "") > 0
 				})
 
 				function label:GetTitle()
