@@ -813,7 +813,8 @@ local library = (function()
 					ZIndex = 0,
 					LineHeight = 0.75,
 					TextSize = 14,
-					BackgroundColor3 = Colors.Gray.DarkButton
+					BackgroundColor3 = Colors.Gray.DarkButton;
+					RichText = true
 				})
 
                 CreateInstance("UIStroke", textLabel, {
@@ -837,7 +838,8 @@ local library = (function()
 						LineHeight = 2,
 						TextSize = 12,
 						BackgroundColor3 = Colors.White,
-						Visible = #(description or "") > 0
+						Visible = #(description or "") > 0,
+						RichText = true
 					})
 				end
 
