@@ -827,9 +827,7 @@ local library = (function()
 
 				local textDescription = CreateInstance("TextLabel", textLabel, {
 					TextColor3 = Colors.White,
-					Text = function()
-						if description then return "   "..description else return "" end
-					end,
+					Text = "   " .. (description or ""),
 					AutomaticSize = Enum.AutomaticSize.Y,
 					Font = Font,
 					BackgroundTransparency = 1,
