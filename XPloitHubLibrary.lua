@@ -827,7 +827,9 @@ local library = (function()
 
 				local textDescription = CreateInstance("TextLabel", textLabel, {
 					TextColor3 = Colors.White,
-					Text = "   " .. (description or ""),
+					Text = function()
+						if description then return "   "..description else return "" end
+					end,
 					AutomaticSize = Enum.AutomaticSize.Y,
 					Font = Font,
 					BackgroundTransparency = 1,
@@ -835,10 +837,9 @@ local library = (function()
 					TextXAlignment = Enum.TextXAlignment.Left,
 					Size = UDim2.new(1, 0, 0, 0),
 					LineHeight = 2,
-					
 					TextSize = 12,
 					BackgroundColor3 = Colors.White,
-					Parent = #(description or "") > 0
+					Visible = #(description or "") > 0
 				})
 
 				function label:GetTitle()
