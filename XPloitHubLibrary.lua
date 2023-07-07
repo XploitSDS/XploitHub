@@ -824,21 +824,22 @@ local library = (function()
 				CreateInstance("UICorner", textLabel, {
 					CornerRadius = UDim.new(0,5)
 				})
-
-				local textDescription = CreateInstance("TextLabel", textLabel, {
-					TextColor3 = Colors.White,
-					Text = "   " .. (description or ""),
-					AutomaticSize = Enum.AutomaticSize.Y,
-					Font = Font,
-					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 0, 0, 30),
-					TextXAlignment = Enum.TextXAlignment.Left,
-					Size = UDim2.new(1, 0, 0, 0),
-					LineHeight = 2,
-					TextSize = 12,
-					BackgroundColor3 = Colors.White,
-					Visible = #(description or "") > 0
-				})
+				if description then
+					local textDescription = CreateInstance("TextLabel", textLabel, {
+						TextColor3 = Colors.White,
+						Text = "   " .. (description or ""),
+						AutomaticSize = Enum.AutomaticSize.Y,
+						Font = Font,
+						BackgroundTransparency = 1,
+						Position = UDim2.new(0, 0, 0, 30),
+						TextXAlignment = Enum.TextXAlignment.Left,
+						Size = UDim2.new(1, 0, 0, 0),
+						LineHeight = 2,
+						TextSize = 12,
+						BackgroundColor3 = Colors.White,
+						Visible = #(description or "") > 0
+					})
+				end
 
 				function label:GetTitle()
 					return string.sub(textLabel.Text, 1)
