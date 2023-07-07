@@ -828,11 +828,12 @@ local library = (function()
 				if description then
 					local textDescription = CreateInstance("TextLabel", textLabel, {
 						TextColor3 = Colors.White,
+						TextWrapped = true,
 						Text = "   " .. (description or ""),
 						AutomaticSize = Enum.AutomaticSize.Y,
 						Font = Font,
 						BackgroundTransparency = 1,
-						Position = UDim2.new(0, 0, 0, 30),
+						Position = UDim2.new(0, 0, 0, 35),
 						TextXAlignment = Enum.TextXAlignment.Left,
 						Size = UDim2.new(1, 0, 0, 0),
 						LineHeight = 2,
