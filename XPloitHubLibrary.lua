@@ -1148,6 +1148,7 @@ local library = (function()
 						end
 					end
 				end)
+				return dropdownContainer
 			
 			end
 		
