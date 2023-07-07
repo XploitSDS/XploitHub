@@ -811,7 +811,7 @@ local library = (function()
 					TextXAlignment = Enum.TextXAlignment.Left,
 					Size = UDim2.new(0, 438, 0, 35),
 					ZIndex = 0,
-					LineHeight = 0.5,
+					LineHeight = 0.75,
 					TextSize = 14,
 					BackgroundColor3 = Colors.Gray.DarkButton
 				})
@@ -859,7 +859,7 @@ local library = (function()
 					textDescription.Visible = #(description or "") > 0
 				end
 
-				return label
+				return label, textLabel
 			end
 
 			function tab:CreateButton(name, callback)
