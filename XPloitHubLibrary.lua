@@ -121,7 +121,7 @@ local library = (function()
 
     ---@param title ?string
     function library:CreateWindow(title)
-        local title = title or "Proxima Hub Window"
+        local title = title or "XploitHub Window"
         local parent = game.CoreGui
 		local state = library.WindowState.Openned
 
@@ -226,7 +226,7 @@ local library = (function()
             end
 
             top.InputBegan:Connect(function(input)
-                if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
                     IsDragging = true
                     StartingPoint = input.Position
                     oldPos = top.Position
