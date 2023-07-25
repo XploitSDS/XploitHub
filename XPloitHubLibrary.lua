@@ -554,7 +554,7 @@ local library = (function()
 					textBoxInstance.Text = value
 				end
 
-				return textbox
+				return textbox, textBoxLabel
             end
 
             ---@param label string
@@ -792,7 +792,7 @@ local library = (function()
 					update(false)
 				end
 
-				return toggle
+				return toggle, mainToggleContainer
             end
 
 			---@param title string
