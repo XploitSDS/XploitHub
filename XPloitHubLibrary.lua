@@ -916,7 +916,7 @@ local library = (function()
 					buttonContainer.Text = "  " .. label
 				end
 
-				return button
+				return button, buttonContainer
 			end
 
 			function tab:CreateDropdown(text, values, callback)
