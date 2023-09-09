@@ -554,7 +554,7 @@ local library = (function()
 					textBoxInstance.Text = value
 				end
 
-				return textbox, textBoxLabel
+				return textbox, textBoxLabel, textBoxInstance
             end
 
             ---@param label string
